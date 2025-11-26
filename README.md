@@ -15,3 +15,10 @@ Pour ce projet on a besoin d'installer 5 libraries en tapant les commandes suiva
 # Pour la librairie django-cors-headers qui nous permet de gérer les requêtes cross-origin, ce qui signifie que notre api peut être appelée par des applications qui ne sont pas sur le même serveur
 - pip install django-cors-headers
 ```
+
+# 2. Les basics à  savoir
+- Un HTTP request renvoi du html 
+- Un REST API HTTP request renvoi du JSON (JavaScript Object Notation)
+
+# 3. A savoir sur la creation des api rest avec django
+- dans une vue django l'import `from django.http import JsonResponse` permet de renvoyer des réponses en JSON
